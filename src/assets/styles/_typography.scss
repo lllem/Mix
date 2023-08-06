@@ -1,0 +1,23 @@
+.t-vertical {
+  &, &_reverse {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    white-space: nowrap;
+  }
+
+  &_reverse {
+    transform: rotate(180deg);
+  }
+}
+
+.small {
+  font-size: 14px;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-muted {
+  opacity: 0.15; // color: #4F4F4F;
+}
