@@ -24,9 +24,7 @@
         </router-link>
       </header>
 
-      <section class="t-center rounded-xl">
-        <img src="/assets/img/top-slider/SfyXGMjOp0c 1.png" class="img-fluid" alt="">
-      </section>
+      <topSlider/>
 
       <router-view/>
 
@@ -46,6 +44,16 @@
   </div>
 
 </template>
+
+<script>
+import topSlider from '@/components/topSlider.vue';
+
+export default {
+  components: {
+    topSlider,
+  },
+};
+</script>
 
 <style lang="scss">
 @import '@/assets/styles/tokens';
